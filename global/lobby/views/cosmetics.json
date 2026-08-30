@@ -1,15 +1,18 @@
 {
-  "size": 4,
+  "size": 5,
   "title": "plugins.lobby.views.cosmetics.title",
   "lang": "plugins.lobby.views.cosmetics",
   "structure": [
     ". . . . . . . . .",
-    ". p h g . m b a .",
+    ". p . t . w . h .",
+    ". g . m . b . a .",
     ". . . . . . . . .",
     ". . . . r . . . ."
   ],
   "ingredients": {
     "p": { "bind": "particles" },
+    "t": { "bind": "trails" },
+    "w": { "bind": "wings" },
     "h": { "bind": "hats" },
     "g": { "bind": "gadgets" },
     "m": { "bind": "pets" },
