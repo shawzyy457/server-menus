@@ -9,6 +9,6 @@
     ". . . . . . . . ."
   ],
   "ingredients": {
-    "4": { "bind": "p4-free" }
+    "4": { "bind": "p4free" }
   }
 }

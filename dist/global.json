@@ -427,7 +427,7 @@
     ],
     "ingredients": {
       "4": {
-        "bind": "p4-free"
+        "bind": "p4free"
       }
     }
   }
