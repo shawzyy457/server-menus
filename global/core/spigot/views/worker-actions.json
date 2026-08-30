@@ -1,0 +1,18 @@
+{
+  "size": 5,
+  "title": "plugins.core.views.worker-actions.title",
+  "lang": "plugins.core.views.worker-actions",
+  "update-interval": 20,
+  "structure": [
+    ". . . . . . . . .",
+    ". x x x x x x x .",
+    "< x x x x x x x >",
+    ". x x x x x x x .",
+    ". . . . . . . . ."
+  ],
+  "ingredients": {
+    "x": "content",
+    "<": "page-previous",
+    ">": "page-next"
+  }
+}

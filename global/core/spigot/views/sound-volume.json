@@ -1,0 +1,17 @@
+{
+  "size": 4,
+  "title": "plugins.core.views.sound-volume.title",
+  "lang": "plugins.core.views.sound-volume",
+  "structure": [
+    ". . . . . . . . .",
+    ". . . d c i . . .",
+    ". . . . . . . . .",
+    ". . . . b . . . ."
+  ],
+  "ingredients": {
+    "d": { "bind": "decrease", "material": "STAINED_GLASS_PANE", "name": "plugins.core.views.sound-volume.items.0.name", "lore": "plugins.core.views.sound-volume.items.0.lore" },
+    "c": { "bind": "current", "material": "NOTE_BLOCK", "name": "plugins.core.views.sound-volume.items.1.name", "lore": "plugins.core.views.sound-volume.items.1.lore" },
+    "i": { "bind": "increase", "material": "STAINED_GLASS_PANE", "name": "plugins.core.views.sound-volume.items.2.name", "lore": "plugins.core.views.sound-volume.items.2.lore" },
+    "b": { "bind": "back" }
+  }
+}

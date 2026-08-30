@@ -1,0 +1,16 @@
+{
+  "size": 3,
+  "title": "plugins.lobby.views.lobby-selector.title",
+  "lang": "plugins.lobby.views.lobby-selector",
+  "update-interval": 20,
+  "structure": [
+    ". . . . . . . . .",
+    "< x x x x x x x >",
+    ". . . . . . . . ."
+  ],
+  "ingredients": {
+    "x": "content",
+    "<": "page-previous",
+    ">": "page-next"
+  }
+}

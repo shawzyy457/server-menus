@@ -1,0 +1,40 @@
+{
+  "size": 6,
+  "title": "plugins.core.views.punishment-create.title",
+  "lang": "plugins.core.views.punishment-create",
+  "structure": [
+    ". . . . s . . . .",
+    ". o o o o o o o .",
+    "< o o o o o o o >",
+    ". o o o o o o o .",
+    ". . . . . . . . .",
+    ". . c . p . a . ."
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "s": {
+      "bind": "silent",
+      "states": {
+        "with-silent": { "material": "WOOD_BUTTON", "glowing": true, "name": "plugins.core.views.punishment-create.items.1.with-silent.name", "lore": "plugins.core.views.punishment-create.items.1.with-silent.lore" },
+        "without-silent": { "material": "WOOD_BUTTON", "name": "plugins.core.views.punishment-create.items.1.without-silent.name", "lore": "plugins.core.views.punishment-create.items.1.without-silent.lore" }
+      }
+    },
+    "c": { "bind": "cancel", "material": "WOOL", "name": "plugins.core.views.punishment-create.items.0.name", "lore": "plugins.core.views.punishment-create.items.0.lore" },
+    "p": {
+      "bind": "proof",
+      "states": {
+        "with-proof": { "material": "PAPER", "glowing": true, "name": "plugins.core.views.punishment-create.items.2.name", "lore": "plugins.core.views.punishment-create.items.2.lore" },
+        "without-proof": { "material": "PAPER", "name": "plugins.core.views.punishment-create.items.2.name", "lore": "plugins.core.views.punishment-create.items.2.lore" }
+      }
+    },
+    "a": {
+      "bind": "apply",
+      "states": {
+        "can-apply": { "material": "EMERALD_BLOCK", "name": "plugins.core.views.punishment-create.items.3.can-apply.name", "lore": "plugins.core.views.punishment-create.items.3.can-apply.lore" },
+        "cannot-apply": { "material": "REDSTONE_BLOCK", "name": "plugins.core.views.punishment-create.items.3.cannot-apply.name", "lore": "plugins.core.views.punishment-create.items.3.cannot-apply.lore" }
+      }
+    }
+  }
+}

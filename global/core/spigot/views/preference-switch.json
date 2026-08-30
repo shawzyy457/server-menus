@@ -1,0 +1,18 @@
+{
+  "size": 6,
+  "title": "plugins.core.views.preference-switch.title",
+  "lang": "plugins.core.views.preference-switch",
+  "structure": [
+    ". . . . . . . . .",
+    ". i i i i i i i .",
+    ". d d d d d d d .",
+    ". i i i i i i i .",
+    ". d d d d d d d .",
+    ". . . . b . . . ."
+  ],
+  "ingredients": {
+    "i": { "content": "icons" },
+    "d": { "content": "states" },
+    "b": { "bind": "back" }
+  }
+}

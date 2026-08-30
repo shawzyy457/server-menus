@@ -1,0 +1,15 @@
+{
+  "size": 3,
+  "title": "plugins.lobby.views.profile.title",
+  "lang": "plugins.lobby.views.profile",
+  "structure": [
+    ". . . . . . . . .",
+    ". . p . i . g . .",
+    ". . . . . . . . ."
+  ],
+  "ingredients": {
+    "p": { "bind": "profile" },
+    "i": { "bind": "ignores", "material": "PAPER", "name": "plugins.lobby.views.profile.items.2.name", "lore": "plugins.lobby.views.profile.items.2.lore" },
+    "g": { "bind": "preferences", "material": "BOOK", "name": "plugins.lobby.views.profile.items.3.name", "lore": "plugins.lobby.views.profile.items.3.lore" }
+  }
+}

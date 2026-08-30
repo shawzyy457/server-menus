@@ -1,0 +1,15 @@
+{
+  "size": 3,
+  "title": "plugins.core.views.preference-type-select.title",
+  "lang": "plugins.core.views.preference-type-select",
+  "structure": [
+    ". . . . . . . . .",
+    ". . < o . o > . .",
+    ". . . . . . . . ."
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next"
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "core/spigot/views/app-action": {
+    "size": 6,
+    "title": "plugins.core.views.app-action.title",
+    "lang": "plugins.core.views.app-action",
+    "update-interval": 60,
+    "structure": [
+      ". . . . . . . . .",
+      ". x x x x x x x .",
+      ". x x x x x x x .",
+      "< x x x x x x x >",
+      ". . . . . . . . .",
+      "b . m . s r t . ."
+    ],
+    "ingredients": {
+      "x": "content",
+      "<": "page-previous",
+      ">": "page-next",
+      "b": {
+        "bind": "back"
+      },
+      "m": {
+        "bind": "maintenance",
+        "material": "COMPASS",
+        "name": "plugins.core.views.app-action.items.0.name",
+        "lore": "plugins.core.views.app-action.items.0.lore"
+      },
+      "s": {
+        "bind": "start",
+        "material": "EMERALD_BLOCK",
+        "name": "plugins.core.views.app-action.items.1.name",
+        "lore": "plugins.core.views.app-action.items.1.lore"
+      },
+      "r": {
+        "bind": "restart",
+        "material": "WATCH",
+        "name": "plugins.core.views.app-action.items.2.name",
+        "lore": "plugins.core.views.app-action.items.2.lore"
+      },
+      "t": {
+        "bind": "stop",
+        "material": "BARRIER",
+        "name": "plugins.core.views.app-action.items.3.name",
+        "lore": "plugins.core.views.app-action.items.3.lore"
+      }
+    }
+  },
+  "core/spigot/views/app-nodes-action": {
+    "size": 5,
+    "title": "plugins.core.views.app-nodes-action.title",
+    "lang": "plugins.core.views.app-nodes-action",
+    "update-interval": 60,
+    "structure": [
+      ". . . . . . . . .",
+      ". < x x x x x > .",
+      ". . . x x x . . .",
+      ". . . . . . . . .",
+      ". . . . . . . . ."
+    ],
+    "ingredients": {
+      "x": "content",
+      "<": "page-previous",
+      ">": "page-next"
+    }
+  },
+  "core/spigot/views/custom-item-list": {
+    "size": 5,
+    "title": "plugins.core.views.custom-item-list.title",
+    "lang": "plugins.core.views.custom-item-list",
+    "structure": [
+      ". . . . . . . . .",
+      ". o o o o o o o .",
+      "< o o o o o o o >",
+      ". o o o o o o o .",
+      ". . . . . . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "<": "page-previous",
+      ">": "page-next"
+    }
+  },
+  "core/spigot/views/custom-item-select-options": {
+    "size": 5,
+    "title": "plugins.core.views.custom-item-select-options.title",
+    "lang": "plugins.core.views.custom-item-select-options",
+    "structure": [
+      ". . . . . . . . .",
+      ". o o o o o o o .",
+      "< o o o o o o o >",
+      ". o o o o o o o .",
+      ". . . . b . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "<": "page-previous",
+      ">": "page-next",
+      "b": {
+        "bind": "back"
+      }
+    }
+  },
+  "core/spigot/views/custom-item-trading": {
+    "size": 3,
+    "title": "plugins.core.views.custom-item-trading.title",
+    "lang": "plugins.core.views.custom-item-trading",
+    "structure": [
+      ". . . . . . . . .",
+      ". . o o o o o . .",
+      ". . . . b . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "b": {
+        "bind": "back"
+      }
+    }
+  },
+  "core/spigot/views/preference-switch": {
+    "size": 6,
+    "title": "plugins.core.views.preference-switch.title",
+    "lang": "plugins.core.views.preference-switch",
+    "structure": [
+      ". . . . . . . . .",
+      ". i i i i i i i .",
+      ". d d d d d d d .",
+      ". i i i i i i i .",
+      ". d d d d d d d .",
+      ". . . . b . . . ."
+    ],
+    "ingredients": {
+      "i": {
+        "content": "icons"
+      },
+      "d": {
+        "content": "states"
+      },
+      "b": {
+        "bind": "back"
+      }
+    }
+  },
+  "core/spigot/views/preference-type-select-back": {
+    "size": 4,
+    "title": "plugins.core.views.preference-type-select.title",
+    "lang": "plugins.core.views.preference-type-select",
+    "structure": [
+      ". . . . . . . . .",
+      ". . < o . o > . .",
+      ". . . . . . . . .",
+      ". . . . b . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "<": "page-previous",
+      ">": "page-next",
+      "b": {
+        "bind": "back"
+      }
+    }
+  },
+  "core/spigot/views/preference-type-select": {
+    "size": 3,
+    "title": "plugins.core.views.preference-type-select.title",
+    "lang": "plugins.core.views.preference-type-select",
+    "structure": [
+      ". . . . . . . . .",
+      ". . < o . o > . .",
+      ". . . . . . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "<": "page-previous",
+      ">": "page-next"
+    }
+  },
+  "core/spigot/views/punishment-create": {
+    "size": 6,
+    "title": "plugins.core.views.punishment-create.title",
+    "lang": "plugins.core.views.punishment-create",
+    "structure": [
+      ". . . . s . . . .",
+      ". o o o o o o o .",
+      "< o o o o o o o >",
+      ". o o o o o o o .",
+      ". . . . . . . . .",
+      ". . c . p . a . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "<": "page-previous",
+      ">": "page-next",
+      "s": {
+        "bind": "silent",
+        "states": {
+          "with-silent": {
+            "material": "WOOD_BUTTON",
+            "glowing": true,
+            "name": "plugins.core.views.punishment-create.items.1.with-silent.name",
+            "lore": "plugins.core.views.punishment-create.items.1.with-silent.lore"
+          },
+          "without-silent": {
+            "material": "WOOD_BUTTON",
+            "name": "plugins.core.views.punishment-create.items.1.without-silent.name",
+            "lore": "plugins.core.views.punishment-create.items.1.without-silent.lore"
+          }
+        }
+      },
+      "c": {
+        "bind": "cancel",
+        "material": "WOOL",
+        "name": "plugins.core.views.punishment-create.items.0.name",
+        "lore": "plugins.core.views.punishment-create.items.0.lore"
+      },
+      "p": {
+        "bind": "proof",
+        "states": {
+          "with-proof": {
+            "material": "PAPER",
+            "glowing": true,
+            "name": "plugins.core.views.punishment-create.items.2.name",
+            "lore": "plugins.core.views.punishment-create.items.2.lore"
+          },
+          "without-proof": {
+            "material": "PAPER",
+            "name": "plugins.core.views.punishment-create.items.2.name",
+            "lore": "plugins.core.views.punishment-create.items.2.lore"
+          }
+        }
+      },
+      "a": {
+        "bind": "apply",
+        "states": {
+          "can-apply": {
+            "material": "EMERALD_BLOCK",
+            "name": "plugins.core.views.punishment-create.items.3.can-apply.name",
+            "lore": "plugins.core.views.punishment-create.items.3.can-apply.lore"
+          },
+          "cannot-apply": {
+            "material": "REDSTONE_BLOCK",
+            "name": "plugins.core.views.punishment-create.items.3.cannot-apply.name",
+            "lore": "plugins.core.views.punishment-create.items.3.cannot-apply.lore"
+          }
+        }
+      }
+    }
+  },
+  "core/spigot/views/punishment-list": {
+    "size": 5,
+    "title": "plugins.core.views.punishment-list.title",
+    "lang": "plugins.core.views.punishment-list",
+    "structure": [
+      ". . . . . . . . .",
+      ". o o o o o o o .",
+      "< o o o e o o o >",
+      ". o o o o o o o .",
+      ". . . . . . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "<": "page-previous",
+      ">": "page-next",
+      "e": {
+        "bind": "empty"
+      }
+    }
+  },
+  "core/spigot/views/sound-volume": {
+    "size": 4,
+    "title": "plugins.core.views.sound-volume.title",
+    "lang": "plugins.core.views.sound-volume",
+    "structure": [
+      ". . . . . . . . .",
+      ". . . d c i . . .",
+      ". . . . . . . . .",
+      ". . . . b . . . ."
+    ],
+    "ingredients": {
+      "d": {
+        "bind": "decrease",
+        "material": "STAINED_GLASS_PANE",
+        "name": "plugins.core.views.sound-volume.items.0.name",
+        "lore": "plugins.core.views.sound-volume.items.0.lore"
+      },
+      "c": {
+        "bind": "current",
+        "material": "NOTE_BLOCK",
+        "name": "plugins.core.views.sound-volume.items.1.name",
+        "lore": "plugins.core.views.sound-volume.items.1.lore"
+      },
+      "i": {
+        "bind": "increase",
+        "material": "STAINED_GLASS_PANE",
+        "name": "plugins.core.views.sound-volume.items.2.name",
+        "lore": "plugins.core.views.sound-volume.items.2.lore"
+      },
+      "b": {
+        "bind": "back"
+      }
+    }
+  },
+  "core/spigot/views/sounds": {
+    "size": 5,
+    "title": "plugins.core.views.sounds.title",
+    "lang": "plugins.core.views.sounds",
+    "structure": [
+      ". . . . . . . . .",
+      ". x x x x x x x .",
+      "< x x x x x x x >",
+      ". x x x x x x x .",
+      ". . . . . . . . ."
+    ],
+    "ingredients": {
+      "x": "content",
+      "<": "page-previous",
+      ">": "page-next"
+    }
+  },
+  "core/spigot/views/user-ignore-list": {
+    "size": 5,
+    "title": "plugins.core.views.user-ignore-list.title",
+    "lang": "plugins.core.views.user-ignore-list",
+    "structure": [
+      ". . . . . . . . .",
+      ". o o o o o o o .",
+      "< o o o e o o o >",
+      ". o o o o o o o .",
+      ". . . . b . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "<": "page-previous",
+      ">": "page-next",
+      "e": {
+        "bind": "empty"
+      },
+      "b": {
+        "bind": "back"
+      }
+    }
+  },
+  "core/spigot/views/user-language": {
+    "size": 3,
+    "title": "plugins.core.views.user-language.title",
+    "lang": "plugins.core.views.user-language",
+    "structure": [
+      ". . . . . . . . .",
+      ". < x x x x x > .",
+      ". . . . . . . . ."
+    ],
+    "ingredients": {
+      "x": "content",
+      "<": "page-previous",
+      ">": "page-next"
+    }
+  },
+  "core/spigot/views/worker-actions": {
+    "size": 5,
+    "title": "plugins.core.views.worker-actions.title",
+    "lang": "plugins.core.views.worker-actions",
+    "update-interval": 20,
+    "structure": [
+      ". . . . . . . . .",
+      ". x x x x x x x .",
+      "< x x x x x x x >",
+      ". x x x x x x x .",
+      ". . . . . . . . ."
+    ],
+    "ingredients": {
+      "x": "content",
+      "<": "page-previous",
+      ">": "page-next"
+    }
+  },
+  "lobby/views/profile": {
+    "size": 3,
+    "title": "plugins.lobby.views.profile.title",
+    "lang": "plugins.lobby.views.profile",
+    "structure": [
+      ". . . . . . . . .",
+      ". . p . i . g . .",
+      ". . . . . . . . ."
+    ],
+    "ingredients": {
+      "p": {
+        "bind": "profile"
+      },
+      "i": {
+        "bind": "ignores",
+        "material": "PAPER",
+        "name": "plugins.lobby.views.profile.items.2.name",
+        "lore": "plugins.lobby.views.profile.items.2.lore"
+      },
+      "g": {
+        "bind": "preferences",
+        "material": "BOOK",
+        "name": "plugins.lobby.views.profile.items.3.name",
+        "lore": "plugins.lobby.views.profile.items.3.lore"
+      }
+    }
+  },
+  "lobby/views/selector": {
+    "size": 3,
+    "title": "plugins.lobby.views.lobby-selector.title",
+    "lang": "plugins.lobby.views.lobby-selector",
+    "update-interval": 20,
+    "structure": [
+      ". . . . . . . . .",
+      "< x x x x x x x >",
+      ". . . . . . . . ."
+    ],
+    "ingredients": {
+      "x": "content",
+      "<": "page-previous",
+      ">": "page-next"
+    }
+  },
+  "lobby/views/servers": {
+    "size": 3,
+    "title": "plugins.lobby.views.servers.title",
+    "lang": "plugins.lobby.views.servers",
+    "update-interval": 20,
+    "structure": [
+      ". . . . . . . . .",
+      ". . . . 4 . . . .",
+      ". . . . . . . . ."
+    ],
+    "ingredients": {
+      "4": {
+        "bind": "p4-free"
+      }
+    }
+  }
+}

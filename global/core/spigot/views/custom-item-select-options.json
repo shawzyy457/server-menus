@@ -1,0 +1,18 @@
+{
+  "size": 5,
+  "title": "plugins.core.views.custom-item-select-options.title",
+  "lang": "plugins.core.views.custom-item-select-options",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    "< o o o o o o o >",
+    ". o o o o o o o .",
+    ". . . . b . . . ."
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "b": { "bind": "back" }
+  }
+}

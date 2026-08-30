@@ -1,0 +1,18 @@
+{
+  "size": 5,
+  "title": "plugins.core.views.app-nodes-action.title",
+  "lang": "plugins.core.views.app-nodes-action",
+  "update-interval": 60,
+  "structure": [
+    ". . . . . . . . .",
+    ". < x x x x x > .",
+    ". . . x x x . . .",
+    ". . . . . . . . .",
+    ". . . . . . . . ."
+  ],
+  "ingredients": {
+    "x": "content",
+    "<": "page-previous",
+    ">": "page-next"
+  }
+}

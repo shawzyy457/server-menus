@@ -1,0 +1,17 @@
+{
+  "size": 5,
+  "title": "plugins.core.views.sounds.title",
+  "lang": "plugins.core.views.sounds",
+  "structure": [
+    ". . . . . . . . .",
+    ". x x x x x x x .",
+    "< x x x x x x x >",
+    ". x x x x x x x .",
+    ". . . . . . . . ."
+  ],
+  "ingredients": {
+    "x": "content",
+    "<": "page-previous",
+    ">": "page-next"
+  }
+}

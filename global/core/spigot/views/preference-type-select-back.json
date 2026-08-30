@@ -1,0 +1,17 @@
+{
+  "size": 4,
+  "title": "plugins.core.views.preference-type-select.title",
+  "lang": "plugins.core.views.preference-type-select",
+  "structure": [
+    ". . . . . . . . .",
+    ". . < o . o > . .",
+    ". . . . . . . . .",
+    ". . . . b . . . ."
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "b": { "bind": "back" }
+  }
+}

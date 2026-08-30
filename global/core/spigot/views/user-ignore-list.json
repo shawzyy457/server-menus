@@ -1,0 +1,19 @@
+{
+  "size": 5,
+  "title": "plugins.core.views.user-ignore-list.title",
+  "lang": "plugins.core.views.user-ignore-list",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    "< o o o e o o o >",
+    ". o o o o o o o .",
+    ". . . . b . . . ."
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "e": { "bind": "empty" },
+    "b": { "bind": "back" }
+  }
+}

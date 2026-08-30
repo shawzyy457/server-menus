@@ -1,0 +1,14 @@
+{
+  "size": 3,
+  "title": "plugins.core.views.custom-item-trading.title",
+  "lang": "plugins.core.views.custom-item-trading",
+  "structure": [
+    ". . . . . . . . .",
+    ". . o o o o o . .",
+    ". . . . b . . . ."
+  ],
+  "ingredients": {
+    "o": "content",
+    "b": { "bind": "back" }
+  }
+}

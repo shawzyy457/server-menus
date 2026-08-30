@@ -1,0 +1,15 @@
+{
+  "size": 3,
+  "title": "plugins.core.views.user-language.title",
+  "lang": "plugins.core.views.user-language",
+  "structure": [
+    ". . . . . . . . .",
+    ". < x x x x x > .",
+    ". . . . . . . . ."
+  ],
+  "ingredients": {
+    "x": "content",
+    "<": "page-previous",
+    ">": "page-next"
+  }
+}

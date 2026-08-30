@@ -1,0 +1,17 @@
+{
+  "size": 5,
+  "title": "plugins.core.views.custom-item-list.title",
+  "lang": "plugins.core.views.custom-item-list",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    "< o o o o o o o >",
+    ". o o o o o o o .",
+    ". . . . . . . . ."
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next"
+  }
+}

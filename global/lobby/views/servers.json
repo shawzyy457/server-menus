@@ -1,0 +1,14 @@
+{
+  "size": 3,
+  "title": "plugins.lobby.views.servers.title",
+  "lang": "plugins.lobby.views.servers",
+  "update-interval": 20,
+  "structure": [
+    ". . . . . . . . .",
+    ". . . . 4 . . . .",
+    ". . . . . . . . ."
+  ],
+  "ingredients": {
+    "4": { "bind": "p4-free" }
+  }
+}

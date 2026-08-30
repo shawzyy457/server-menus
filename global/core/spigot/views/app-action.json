@@ -1,0 +1,24 @@
+{
+  "size": 6,
+  "title": "plugins.core.views.app-action.title",
+  "lang": "plugins.core.views.app-action",
+  "update-interval": 60,
+  "structure": [
+    ". . . . . . . . .",
+    ". x x x x x x x .",
+    ". x x x x x x x .",
+    "< x x x x x x x >",
+    ". . . . . . . . .",
+    "b . m . s r t . ."
+  ],
+  "ingredients": {
+    "x": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "b": { "bind": "back" },
+    "m": { "bind": "maintenance", "material": "COMPASS", "name": "plugins.core.views.app-action.items.0.name", "lore": "plugins.core.views.app-action.items.0.lore" },
+    "s": { "bind": "start", "material": "EMERALD_BLOCK", "name": "plugins.core.views.app-action.items.1.name", "lore": "plugins.core.views.app-action.items.1.lore" },
+    "r": { "bind": "restart", "material": "WATCH", "name": "plugins.core.views.app-action.items.2.name", "lore": "plugins.core.views.app-action.items.2.lore" },
+    "t": { "bind": "stop", "material": "BARRIER", "name": "plugins.core.views.app-action.items.3.name", "lore": "plugins.core.views.app-action.items.3.lore" }
+  }
+}
