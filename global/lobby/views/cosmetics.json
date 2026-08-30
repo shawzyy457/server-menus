@@ -1,0 +1,19 @@
+{
+  "size": 4,
+  "title": "plugins.lobby.views.cosmetics.title",
+  "lang": "plugins.lobby.views.cosmetics",
+  "structure": [
+    ". . . . . . . . .",
+    "p . h . g . m . b",
+    ". . . . . . . . .",
+    ". . . . r . . . ."
+  ],
+  "ingredients": {
+    "p": { "bind": "particles" },
+    "h": { "bind": "hats" },
+    "g": { "bind": "gadgets" },
+    "m": { "bind": "pets" },
+    "b": { "bind": "balloons" },
+    "r": { "bind": "unequip-all" }
+  }
+}

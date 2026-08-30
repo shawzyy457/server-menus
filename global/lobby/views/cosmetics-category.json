@@ -1,0 +1,18 @@
+{
+  "size": 5,
+  "title": "plugins.lobby.views.cosmetics-category.title",
+  "lang": "plugins.lobby.views.cosmetics-category",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    "< o o o o o o o >",
+    ". o o o o o o o .",
+    ". . . . b . . . ."
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "b": { "bind": "back" }
+  }
+}

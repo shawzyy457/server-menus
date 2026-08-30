@@ -63,6 +63,33 @@
       ">": "page-next"
     }
   },
+  "core/spigot/views/confirmation": {
+    "size": 3,
+    "title": "plugins.core.views.confirmation.title",
+    "lang": "plugins.core.views.confirmation",
+    "structure": [
+      ". . . . . . . . .",
+      ". . a . s . d . .",
+      ". . . . . . . . ."
+    ],
+    "ingredients": {
+      "a": {
+        "bind": "accept",
+        "material": "EMERALD_BLOCK",
+        "name": "plugins.core.views.confirmation.items.0.name",
+        "lore": "plugins.core.views.confirmation.items.0.lore"
+      },
+      "s": {
+        "bind": "subject"
+      },
+      "d": {
+        "bind": "deny",
+        "material": "REDSTONE_BLOCK",
+        "name": "plugins.core.views.confirmation.items.1.name",
+        "lore": "plugins.core.views.confirmation.items.1.lore"
+      }
+    }
+  },
   "core/spigot/views/custom-item-list": {
     "size": 5,
     "title": "plugins.core.views.custom-item-list.title",
@@ -370,6 +397,57 @@
       "x": "content",
       "<": "page-previous",
       ">": "page-next"
+    }
+  },
+  "lobby/views/cosmetics-category": {
+    "size": 5,
+    "title": "plugins.lobby.views.cosmetics-category.title",
+    "lang": "plugins.lobby.views.cosmetics-category",
+    "structure": [
+      ". . . . . . . . .",
+      ". o o o o o o o .",
+      "< o o o o o o o >",
+      ". o o o o o o o .",
+      ". . . . b . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "<": "page-previous",
+      ">": "page-next",
+      "b": {
+        "bind": "back"
+      }
+    }
+  },
+  "lobby/views/cosmetics": {
+    "size": 4,
+    "title": "plugins.lobby.views.cosmetics.title",
+    "lang": "plugins.lobby.views.cosmetics",
+    "structure": [
+      ". . . . . . . . .",
+      "p . h . g . m . b",
+      ". . . . . . . . .",
+      ". . . . r . . . ."
+    ],
+    "ingredients": {
+      "p": {
+        "bind": "particles"
+      },
+      "h": {
+        "bind": "hats"
+      },
+      "g": {
+        "bind": "gadgets"
+      },
+      "m": {
+        "bind": "pets"
+      },
+      "b": {
+        "bind": "balloons"
+      },
+      "r": {
+        "bind": "unequip-all"
+      }
     }
   },
   "lobby/views/profile": {

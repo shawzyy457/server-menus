@@ -1,0 +1,25 @@
+{
+  "size": 3,
+  "title": "plugins.core.views.confirmation.title",
+  "lang": "plugins.core.views.confirmation",
+  "structure": [
+    ". . . . . . . . .",
+    ". . a . s . d . .",
+    ". . . . . . . . ."
+  ],
+  "ingredients": {
+    "a": {
+      "bind": "accept",
+      "material": "EMERALD_BLOCK",
+      "name": "plugins.core.views.confirmation.items.0.name",
+      "lore": "plugins.core.views.confirmation.items.0.lore"
+    },
+    "s": { "bind": "subject" },
+    "d": {
+      "bind": "deny",
+      "material": "REDSTONE_BLOCK",
+      "name": "plugins.core.views.confirmation.items.1.name",
+      "lore": "plugins.core.views.confirmation.items.1.lore"
+    }
+  }
+}
