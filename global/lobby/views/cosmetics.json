@@ -4,7 +4,7 @@
   "lang": "plugins.lobby.views.cosmetics",
   "structure": [
     ". . . . . . . . .",
-    "p . h . g . m . b",
+    ". p h g . m b a .",
     ". . . . . . . . .",
     ". . . . r . . . ."
   ],
@@ -14,6 +14,7 @@
     "g": { "bind": "gadgets" },
     "m": { "bind": "pets" },
     "b": { "bind": "balloons" },
+    "a": { "bind": "armor" },
     "r": { "bind": "unequip-all" }
   }
 }
