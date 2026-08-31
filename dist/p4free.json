@@ -570,7 +570,7 @@
       ". w . o o o o o .",
       ". p . o o o o o .",
       ". r . . . . . t .",
-      ". . . . . . . . ."
+      ". d . . . . . . ."
     ],
     "ingredients": {
       "o": "content",
@@ -588,6 +588,12 @@
         "material": "FIREWORK",
         "name": "plugins.weapons.views.weapon.items.4.name",
         "lore": "plugins.weapons.views.weapon.items.4.lore"
+      },
+      "d": {
+        "bind": "delete",
+        "material": "BARRIER",
+        "name": "plugins.weapons.views.weapon.items.7.name",
+        "lore": "plugins.weapons.views.weapon.items.7.lore"
       },
       "t": {
         "bind": "top",
