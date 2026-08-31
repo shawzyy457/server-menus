@@ -1,0 +1,20 @@
+{
+  "size": 5,
+  "title": "plugins.perks.views.perks.title",
+  "lang": "plugins.perks.views.perks",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". . . . . . . . .",
+    ". . . . i . . . ."
+  ],
+  "ingredients": {
+    "o": "content",
+    "i": {
+      "material": "PAPER",
+      "name": "plugins.perks.views.perks.info.name",
+      "lore": "plugins.perks.views.perks.info.lore"
+    }
+  }
+}
