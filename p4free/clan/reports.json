@@ -8,7 +8,7 @@
     ". o o o o o o o .",
     ". o o o o o o o .",
     ". . . . . . . . .",
-    "< . . . f . . . >"
+    "b . . < f > . . ."
   ],
   "ingredients": {
     "o": "content",
@@ -16,6 +16,9 @@
     ">": "page-next",
     "f": {
       "bind": "filter"
+    },
+    "b": {
+      "bind": "back"
     }
   }
 }

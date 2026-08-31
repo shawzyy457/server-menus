@@ -29,7 +29,7 @@
       ". o o o o o o o .",
       ". o o o o o o o .",
       ". . . . . . . . .",
-      "< . . . f . . . >"
+      "b . . < f > . . ."
     ],
     "ingredients": {
       "o": "content",
@@ -37,6 +37,9 @@
       ">": "page-next",
       "f": {
         "bind": "filter"
+      },
+      "b": {
+        "bind": "back"
       }
     }
   },
@@ -181,14 +184,15 @@
     }
   },
   "clan/primary": {
-    "size": 4,
+    "size": 5,
     "title": "plugins.clans.views.clan-primary.title",
     "lang": "plugins.clans.views.clan-primary",
     "structure": [
-      ". h . m t . . b .",
-      ". i . r . . . . x",
       ". . . . . . . . .",
-      ". . . . . . . . ."
+      ". . . h . b . . .",
+      ". . . . . . . . .",
+      ". m . t . r . i .",
+      ". . . . . . . . x"
     ],
     "ingredients": {
       "h": {
@@ -249,7 +253,7 @@
       ". o o o o o o o .",
       ". o o o o o o o .",
       ". . . . . . . . .",
-      "< . . . f . . . >"
+      "b . . < f > . . ."
     ],
     "ingredients": {
       "o": "content",
@@ -257,6 +261,9 @@
       ">": "page-next",
       "f": {
         "bind": "filter"
+      },
+      "b": {
+        "bind": "back"
       }
     }
   },
