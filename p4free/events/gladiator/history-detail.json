@@ -1,0 +1,42 @@
+{
+  "size": 5,
+  "title": "plugins.events.views.gladiator.history-detail.title",
+  "lang": "plugins.events.views.gladiator.history-detail",
+  "structure": [
+    ". . . . o . . . .",
+    ". d . r . e . . .",
+    ". l . c . . . . .",
+    ". . . . . . . . .",
+    ". . . . b . . . ."
+  ],
+  "ingredients": {
+    "o": {
+      "bind": "overview",
+      "material": "NETHER_STAR"
+    },
+    "d": {
+      "bind": "deaths",
+      "material": "BONE"
+    },
+    "r": {
+      "bind": "rushes",
+      "material": "BLAZE_POWDER"
+    },
+    "e": {
+      "bind": "exits",
+      "material": "IRON_DOOR"
+    },
+    "l": {
+      "bind": "lineup",
+      "material": "BOOK"
+    },
+    "c": {
+      "bind": "eliminations",
+      "material": "RED_BANNER"
+    },
+    "b": {
+      "bind": "back",
+      "material": "ARROW"
+    }
+  }
+}

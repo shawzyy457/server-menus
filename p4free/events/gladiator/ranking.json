@@ -1,0 +1,36 @@
+{
+  "size": 3,
+  "title": "plugins.events.views.gladiator.ranking.title",
+  "lang": "plugins.events.views.gladiator.ranking",
+  "structure": [
+    ". . . . . . . . .",
+    ". c p m r v . . .",
+    ". . . . b . . . ."
+  ],
+  "ingredients": {
+    "c": {
+      "bind": "clan-wins",
+      "material": "DRAGON_EGG"
+    },
+    "p": {
+      "bind": "player-kills",
+      "material": "DIAMOND_SWORD"
+    },
+    "r": {
+      "bind": "rush-wins",
+      "material": "GOLDEN_AXE"
+    },
+    "v": {
+      "bind": "rush-reversals",
+      "material": "TOTEM_OF_UNDYING"
+    },
+    "m": {
+      "bind": "myths",
+      "material": "NETHER_STAR"
+    },
+    "b": {
+      "bind": "back",
+      "material": "ARROW"
+    }
+  }
+}

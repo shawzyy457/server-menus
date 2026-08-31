@@ -1,0 +1,32 @@
+{
+  "size": 3,
+  "title": "plugins.events.views.gladiator.schedule.title",
+  "lang": "plugins.events.views.gladiator.schedule",
+  "structure": [
+    ". . . . . . . . .",
+    ". m t s . . . i .",
+    ". . . . b . . . ."
+  ],
+  "ingredients": {
+    "m": {
+      "bind": "monday",
+      "material": "PLAYER_HEAD"
+    },
+    "t": {
+      "bind": "thursday",
+      "material": "PLAYER_HEAD"
+    },
+    "s": {
+      "bind": "sunday",
+      "material": "PLAYER_HEAD"
+    },
+    "i": {
+      "bind": "information",
+      "material": "BOOK"
+    },
+    "b": {
+      "bind": "back",
+      "material": "ARROW"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "size": 3,
+  "title": "plugins.clans.views.member-primary.title",
+  "lang": "plugins.clans.views.member-primary",
+  "structure": [
+    ". . . . . . . . .",
+    ". . h . i . c . .",
+    ". . . . . . . . ."
+  ],
+  "ingredients": {
+    "h": {
+      "bind": "self-head"
+    },
+    "i": {
+      "bind": "invites",
+      "states": {
+        "with-invites": {
+          "material": "WRITABLE_BOOK",
+          "name": "plugins.clans.views.member-primary.items.0.with-invites.name",
+          "lore": "plugins.clans.views.member-primary.items.0.with-invites.lore"
+        },
+        "without-invites": {
+          "material": "WRITABLE_BOOK",
+          "name": "plugins.clans.views.member-primary.items.0.without-invites.name",
+          "lore": "plugins.clans.views.member-primary.items.0.without-invites.lore"
+        }
+      }
+    },
+    "c": {
+      "bind": "create",
+      "material": "WHITE_BANNER",
+      "name": "plugins.clans.views.member-primary.items.1.name",
+      "lore": "plugins.clans.views.member-primary.items.1.lore"
+    }
+  }
+}

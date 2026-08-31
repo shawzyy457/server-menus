@@ -1,0 +1,21 @@
+{
+  "size": 5,
+  "title": "plugins.events.views.gladiator.recent-actions.title",
+  "lang": "plugins.events.views.gladiator.recent-actions",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    "< . . . b . . . >"
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "b": {
+      "bind": "back",
+      "material": "ARROW"
+    }
+  }
+}

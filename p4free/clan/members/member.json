@@ -1,0 +1,27 @@
+{
+  "size": 3,
+  "title": "plugins.clans.views.clan-member-manage.title",
+  "lang": "plugins.clans.views.clan-member-manage",
+  "structure": [
+    ". . . r . p . . .",
+    ". . . . . . . . .",
+    "b . . . . . . . ."
+  ],
+  "ingredients": {
+    "b": {
+      "bind": "back"
+    },
+    "r": {
+      "bind": "role",
+      "material": "GOLDEN_HELMET",
+      "name": "plugins.clans.views.clan-member-manage.items.0.name",
+      "lore": "plugins.clans.views.clan-member-manage.items.0.lore"
+    },
+    "p": {
+      "bind": "permissions",
+      "material": "GOLDEN_PICKAXE",
+      "name": "plugins.clans.views.clan-member-manage.items.1.name",
+      "lore": "plugins.clans.views.clan-member-manage.items.1.lore"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "size": 4,
+  "title": "plugins.clans.views.clan-primary.title",
+  "lang": "plugins.clans.views.clan-primary",
+  "structure": [
+    ". h . m c . . b .",
+    ". i . . . . . . x",
+    ". . . . . . . . .",
+    ". . . . . . . . ."
+  ],
+  "ingredients": {
+    "h": {
+      "bind": "self-head"
+    },
+    "b": {
+      "bind": "clan-banner"
+    },
+    "m": {
+      "bind": "members",
+      "material": "PLAYER_HEAD",
+      "name": "plugins.clans.views.clan-primary.items.0.name",
+      "lore": "plugins.clans.views.clan-primary.items.0.lore"
+    },
+    "c": {
+      "bind": "color",
+      "material": "ORANGE_DYE",
+      "name": "plugins.clans.views.clan-primary.items.1.name",
+      "lore": "plugins.clans.views.clan-primary.items.1.lore"
+    },
+    "i": {
+      "bind": "invites",
+      "material": "BOOK",
+      "name": "plugins.clans.views.clan-primary.items.3.name",
+      "lore": "plugins.clans.views.clan-primary.items.3.lore"
+    },
+    "x": {
+      "bind": "exit",
+      "states": {
+        "disband": {
+          "material": "ACACIA_DOOR",
+          "name": "plugins.clans.views.clan-primary.items.4.name",
+          "lore": "plugins.clans.views.clan-primary.items.4.lore"
+        },
+        "leave": {
+          "material": "ACACIA_DOOR",
+          "name": "plugins.clans.views.clan-primary.items.5.name",
+          "lore": "plugins.clans.views.clan-primary.items.5.lore"
+        }
+      }
+    }
+  }
+}

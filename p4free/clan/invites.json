@@ -1,0 +1,20 @@
+{
+  "size": 5,
+  "title": "plugins.clans.views.clan-invites.title",
+  "lang": "plugins.clans.views.clan-invites",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    "< o o o o o o o >",
+    ". o o o o o o o .",
+    "b . . . . . . . ."
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "b": {
+      "bind": "back"
+    }
+  }
+}

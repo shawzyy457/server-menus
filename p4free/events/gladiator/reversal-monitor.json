@@ -1,0 +1,26 @@
+{
+  "size": 6,
+  "title": "plugins.events.views.gladiator.reversal-monitor.title",
+  "lang": "plugins.events.views.gladiator.reversal-monitor",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    "< . . r b . . . >"
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "r": {
+      "bind": "refresh",
+      "material": "CLOCK"
+    },
+    "b": {
+      "bind": "back",
+      "material": "ARROW"
+    }
+  }
+}

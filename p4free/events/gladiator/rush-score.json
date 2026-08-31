@@ -1,0 +1,22 @@
+{
+  "size": 6,
+  "title": "plugins.events.views.gladiator.rush-score.title",
+  "lang": "plugins.events.views.gladiator.rush-score",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    "< . . . b . . . >"
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "b": {
+      "bind": "back",
+      "material": "ARROW"
+    }
+  }
+}
