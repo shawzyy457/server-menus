@@ -560,5 +560,29 @@
         "material": "ARROW"
       }
     }
+  },
+  "weapons/primary": {
+    "size": 5,
+    "title": "plugins.weapons.views.weapon.title",
+    "lang": "plugins.weapons.views.weapon",
+    "structure": [
+      ". . . . . . . . .",
+      ". w . o o o o o .",
+      ". . . o o o o o .",
+      ". r . . . . . . .",
+      ". . . . . . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "w": {
+        "bind": "weapon"
+      },
+      "r": {
+        "bind": "repair",
+        "material": "ANVIL",
+        "name": "plugins.weapons.views.weapon.items.3.name",
+        "lore": "plugins.weapons.views.weapon.items.3.lore"
+      }
+    }
   }
 }
