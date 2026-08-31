@@ -79,12 +79,12 @@
         "bind": "invites",
         "states": {
           "with-invites": {
-            "material": "WRITABLE_BOOK",
+            "material": "BOOK_AND_QUILL",
             "name": "plugins.clans.views.member-primary.items.0.with-invites.name",
             "lore": "plugins.clans.views.member-primary.items.0.with-invites.lore"
           },
           "without-invites": {
-            "material": "WRITABLE_BOOK",
+            "material": "BOOK_AND_QUILL",
             "name": "plugins.clans.views.member-primary.items.0.without-invites.name",
             "lore": "plugins.clans.views.member-primary.items.0.without-invites.lore"
           }
@@ -92,9 +92,10 @@
       },
       "c": {
         "bind": "create",
-        "material": "WHITE_BANNER",
+        "material": "BANNER",
         "name": "plugins.clans.views.member-primary.items.1.name",
-        "lore": "plugins.clans.views.member-primary.items.1.lore"
+        "lore": "plugins.clans.views.member-primary.items.1.lore",
+        "data": 15
       }
     }
   },
@@ -153,13 +154,13 @@
       },
       "r": {
         "bind": "role",
-        "material": "GOLDEN_HELMET",
+        "material": "GOLD_HELMET",
         "name": "plugins.clans.views.clan-member-manage.items.0.name",
         "lore": "plugins.clans.views.clan-member-manage.items.0.lore"
       },
       "p": {
         "bind": "permissions",
-        "material": "GOLDEN_PICKAXE",
+        "material": "GOLD_PICKAXE",
         "name": "plugins.clans.views.clan-member-manage.items.1.name",
         "lore": "plugins.clans.views.clan-member-manage.items.1.lore"
       }
@@ -225,15 +226,17 @@
       },
       "m": {
         "bind": "members",
-        "material": "PLAYER_HEAD",
+        "material": "SKULL_ITEM",
         "name": "plugins.clans.views.clan-primary.items.0.name",
-        "lore": "plugins.clans.views.clan-primary.items.0.lore"
+        "lore": "plugins.clans.views.clan-primary.items.0.lore",
+        "data": 3
       },
       "c": {
         "bind": "color",
-        "material": "ORANGE_DYE",
+        "material": "INK_SACK",
         "name": "plugins.clans.views.clan-primary.items.1.name",
-        "lore": "plugins.clans.views.clan-primary.items.1.lore"
+        "lore": "plugins.clans.views.clan-primary.items.1.lore",
+        "data": 14
       },
       "i": {
         "bind": "invites",
@@ -292,7 +295,8 @@
       },
       "c": {
         "bind": "eliminations",
-        "material": "RED_BANNER"
+        "material": "BANNER",
+        "data": 1
       },
       "b": {
         "bind": "back",
@@ -359,15 +363,15 @@
       },
       "h": {
         "bind": "schedule",
-        "material": "CLOCK"
+        "material": "WATCH"
       },
       "c": {
         "bind": "commands",
-        "material": "WRITABLE_BOOK"
+        "material": "BOOK_AND_QUILL"
       },
       "s": {
         "bind": "history",
-        "material": "KNOWLEDGE_BOOK"
+        "material": "BOOK"
       },
       "e": {
         "bind": "event",
@@ -383,7 +387,7 @@
             "lore": "plugins.events.views.gladiator.primary.items.event.waiting.lore"
           },
           "running": {
-            "material": "NETHERITE_SWORD",
+            "material": "DIAMOND_SWORD",
             "name": "plugins.events.views.gladiator.primary.items.event.running.name",
             "lore": "plugins.events.views.gladiator.primary.items.event.running.lore"
           }
@@ -411,11 +415,11 @@
       },
       "r": {
         "bind": "rush-wins",
-        "material": "GOLDEN_AXE"
+        "material": "GOLD_AXE"
       },
       "v": {
         "bind": "rush-reversals",
-        "material": "TOTEM_OF_UNDYING"
+        "material": "NETHER_STAR"
       },
       "m": {
         "bind": "myths",
@@ -466,7 +470,7 @@
       ">": "page-next",
       "r": {
         "bind": "refresh",
-        "material": "CLOCK"
+        "material": "WATCH"
       },
       "b": {
         "bind": "back",
@@ -508,15 +512,18 @@
     "ingredients": {
       "m": {
         "bind": "monday",
-        "material": "PLAYER_HEAD"
+        "material": "SKULL_ITEM",
+        "data": 3
       },
       "t": {
         "bind": "thursday",
-        "material": "PLAYER_HEAD"
+        "material": "SKULL_ITEM",
+        "data": 3
       },
       "s": {
         "bind": "sunday",
-        "material": "PLAYER_HEAD"
+        "material": "SKULL_ITEM",
+        "data": 3
       },
       "i": {
         "bind": "information",
@@ -546,7 +553,7 @@
       ">": "page-next",
       "r": {
         "bind": "refresh",
-        "material": "CLOCK"
+        "material": "WATCH"
       },
       "b": {
         "bind": "back",

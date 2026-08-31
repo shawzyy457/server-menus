@@ -10,15 +10,18 @@
   "ingredients": {
     "m": {
       "bind": "monday",
-      "material": "PLAYER_HEAD"
+      "material": "SKULL_ITEM",
+      "data": 3
     },
     "t": {
       "bind": "thursday",
-      "material": "PLAYER_HEAD"
+      "material": "SKULL_ITEM",
+      "data": 3
     },
     "s": {
       "bind": "sunday",
-      "material": "PLAYER_HEAD"
+      "material": "SKULL_ITEM",
+      "data": 3
     },
     "i": {
       "bind": "information",

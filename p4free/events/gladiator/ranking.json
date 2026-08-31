@@ -18,11 +18,11 @@
     },
     "r": {
       "bind": "rush-wins",
-      "material": "GOLDEN_AXE"
+      "material": "GOLD_AXE"
     },
     "v": {
       "bind": "rush-reversals",
-      "material": "TOTEM_OF_UNDYING"
+      "material": "NETHER_STAR"
     },
     "m": {
       "bind": "myths",

@@ -32,7 +32,8 @@
     },
     "c": {
       "bind": "eliminations",
-      "material": "RED_BANNER"
+      "material": "BANNER",
+      "data": 1
     },
     "b": {
       "bind": "back",

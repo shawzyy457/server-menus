@@ -15,12 +15,12 @@
       "bind": "invites",
       "states": {
         "with-invites": {
-          "material": "WRITABLE_BOOK",
+          "material": "BOOK_AND_QUILL",
           "name": "plugins.clans.views.member-primary.items.0.with-invites.name",
           "lore": "plugins.clans.views.member-primary.items.0.with-invites.lore"
         },
         "without-invites": {
-          "material": "WRITABLE_BOOK",
+          "material": "BOOK_AND_QUILL",
           "name": "plugins.clans.views.member-primary.items.0.without-invites.name",
           "lore": "plugins.clans.views.member-primary.items.0.without-invites.lore"
         }
@@ -28,9 +28,10 @@
     },
     "c": {
       "bind": "create",
-      "material": "WHITE_BANNER",
+      "material": "BANNER",
       "name": "plugins.clans.views.member-primary.items.1.name",
-      "lore": "plugins.clans.views.member-primary.items.1.lore"
+      "lore": "plugins.clans.views.member-primary.items.1.lore",
+      "data": 15
     }
   }
 }

@@ -14,15 +14,15 @@
     },
     "h": {
       "bind": "schedule",
-      "material": "CLOCK"
+      "material": "WATCH"
     },
     "c": {
       "bind": "commands",
-      "material": "WRITABLE_BOOK"
+      "material": "BOOK_AND_QUILL"
     },
     "s": {
       "bind": "history",
-      "material": "KNOWLEDGE_BOOK"
+      "material": "BOOK"
     },
     "e": {
       "bind": "event",
@@ -38,7 +38,7 @@
           "lore": "plugins.events.views.gladiator.primary.items.event.waiting.lore"
         },
         "running": {
-          "material": "NETHERITE_SWORD",
+          "material": "DIAMOND_SWORD",
           "name": "plugins.events.views.gladiator.primary.items.event.running.name",
           "lore": "plugins.events.views.gladiator.primary.items.event.running.lore"
         }

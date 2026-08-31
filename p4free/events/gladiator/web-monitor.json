@@ -16,7 +16,7 @@
     ">": "page-next",
     "r": {
       "bind": "refresh",
-      "material": "CLOCK"
+      "material": "WATCH"
     },
     "b": {
       "bind": "back",
