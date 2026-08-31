@@ -1,27 +1,4 @@
 {
-  "clan/color": {
-    "size": 5,
-    "title": "plugins.clans.views.clan-color.title",
-    "lang": "plugins.clans.views.clan-color",
-    "structure": [
-      ". . . . . . . . .",
-      ". . p . o o o . .",
-      ". . . < o o o > .",
-      ". . . . o o o . .",
-      "b . . . . . . . ."
-    ],
-    "ingredients": {
-      "o": "content",
-      "<": "page-previous",
-      ">": "page-next",
-      "b": {
-        "bind": "back"
-      },
-      "p": {
-        "bind": "preview"
-      }
-    }
-  },
   "clan/invites": {
     "size": 5,
     "title": "plugins.clans.views.clan-invites.title",
@@ -39,6 +16,27 @@
       ">": "page-next",
       "b": {
         "bind": "back"
+      }
+    }
+  },
+  "clan/leaderboard": {
+    "size": 6,
+    "title": "plugins.clans.views.clan-leaderboard.title",
+    "lang": "plugins.clans.views.clan-leaderboard",
+    "structure": [
+      ". . . . . . . . .",
+      ". o o o o o o o .",
+      ". o o o o o o o .",
+      ". o o o o o o o .",
+      ". . . . . . . . .",
+      "< . . . f . . . >"
+    ],
+    "ingredients": {
+      "o": "content",
+      "<": "page-previous",
+      ">": "page-next",
+      "f": {
+        "bind": "filter"
       }
     }
   },
@@ -144,7 +142,7 @@
     "title": "plugins.clans.views.clan-member-manage.title",
     "lang": "plugins.clans.views.clan-member-manage",
     "structure": [
-      ". . . r . p . . .",
+      ". . . r . k . . .",
       ". . . . . . . . .",
       "b . . . . . . . ."
     ],
@@ -158,46 +156,21 @@
         "name": "plugins.clans.views.clan-member-manage.items.0.name",
         "lore": "plugins.clans.views.clan-member-manage.items.0.lore"
       },
-      "p": {
-        "bind": "permissions",
-        "material": "GOLD_PICKAXE",
+      "k": {
+        "bind": "kick",
+        "material": "BARRIER",
         "name": "plugins.clans.views.clan-member-manage.items.1.name",
         "lore": "plugins.clans.views.clan-member-manage.items.1.lore"
       }
     }
   },
-  "clan/members/permissions": {
-    "size": 5,
-    "title": "plugins.clans.views.clan-member-permission-manage.title",
-    "lang": "plugins.clans.views.clan-member-permission-manage",
-    "structure": [
-      ". . . . . . . . .",
-      ". o o o o o o o .",
-      ". . . . . . . . .",
-      ". . . . . . . . .",
-      "b . . . d . . . ."
-    ],
-    "ingredients": {
-      "o": "content",
-      "b": {
-        "bind": "back"
-      },
-      "d": {
-        "bind": "reset",
-        "skull": "3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025",
-        "name": "plugins.clans.views.clan-member-permission-manage.items.0.name",
-        "lore": "plugins.clans.views.clan-member-permission-manage.items.0.lore"
-      }
-    }
-  },
   "clan/members/roles": {
-    "size": 4,
+    "size": 3,
     "title": "plugins.clans.views.clan-member-role-manage.title",
     "lang": "plugins.clans.views.clan-member-role-manage",
     "structure": [
       ". . . . . . . . .",
-      ". o . o . o . o .",
-      ". . . . . . . . .",
+      ". . . o . o . . .",
       "b . . . . . . . ."
     ],
     "ingredients": {
@@ -212,8 +185,8 @@
     "title": "plugins.clans.views.clan-primary.title",
     "lang": "plugins.clans.views.clan-primary",
     "structure": [
-      ". h . m c . . b .",
-      ". i . . . . . . x",
+      ". h . m t . . b .",
+      ". i . r . . . . x",
       ". . . . . . . . .",
       ". . . . . . . . ."
     ],
@@ -231,12 +204,17 @@
         "lore": "plugins.clans.views.clan-primary.items.0.lore",
         "data": 3
       },
-      "c": {
-        "bind": "color",
-        "material": "INK_SACK",
+      "t": {
+        "bind": "leaderboard",
+        "material": "NETHER_STAR",
         "name": "plugins.clans.views.clan-primary.items.1.name",
-        "lore": "plugins.clans.views.clan-primary.items.1.lore",
-        "data": 14
+        "lore": "plugins.clans.views.clan-primary.items.1.lore"
+      },
+      "r": {
+        "bind": "reports",
+        "material": "BOOK_AND_QUILL",
+        "name": "plugins.clans.views.clan-primary.items.2.name",
+        "lore": "plugins.clans.views.clan-primary.items.2.lore"
       },
       "i": {
         "bind": "invites",
@@ -258,6 +236,27 @@
             "lore": "plugins.clans.views.clan-primary.items.5.lore"
           }
         }
+      }
+    }
+  },
+  "clan/reports": {
+    "size": 6,
+    "title": "plugins.clans.views.clan-reports.title",
+    "lang": "plugins.clans.views.clan-reports",
+    "structure": [
+      ". . . . . . . . .",
+      ". o o o o o o o .",
+      ". o o o o o o o .",
+      ". o o o o o o o .",
+      ". . . . . . . . .",
+      "< . . . f . . . >"
+    ],
+    "ingredients": {
+      "o": "content",
+      "<": "page-previous",
+      ">": "page-next",
+      "f": {
+        "bind": "filter"
       }
     }
   },
@@ -558,6 +557,46 @@
       "b": {
         "bind": "back",
         "material": "ARROW"
+      }
+    }
+  },
+  "perks/primary": {
+    "size": 5,
+    "title": "plugins.perks.views.perks.title",
+    "lang": "plugins.perks.views.perks",
+    "structure": [
+      ". . . . . . . . .",
+      ". o o o o o o o .",
+      ". o o o o o o o .",
+      ". . . . . . . . .",
+      ". . . . i . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "i": {
+        "material": "PAPER",
+        "name": "plugins.perks.views.perks.info.name",
+        "lore": "plugins.perks.views.perks.info.lore"
+      }
+    }
+  },
+  "perks/upgrades": {
+    "size": 4,
+    "title": "plugins.perks.views.upgrades.title",
+    "lang": "plugins.perks.views.upgrades",
+    "structure": [
+      ". . . . . . . . .",
+      ". . o o o o o . .",
+      ". . . . . . . . .",
+      ". . . . b . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "b": {
+        "bind": "back",
+        "material": "ARROW",
+        "name": "plugins.perks.views.upgrades.items.0.name",
+        "lore": "plugins.perks.views.upgrades.items.0.lore"
       }
     }
   },

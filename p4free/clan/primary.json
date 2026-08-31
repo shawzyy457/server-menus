@@ -3,8 +3,8 @@
   "title": "plugins.clans.views.clan-primary.title",
   "lang": "plugins.clans.views.clan-primary",
   "structure": [
-    ". h . m c . . b .",
-    ". i . . . . . . x",
+    ". h . m t . . b .",
+    ". i . r . . . . x",
     ". . . . . . . . .",
     ". . . . . . . . ."
   ],
@@ -22,12 +22,17 @@
       "lore": "plugins.clans.views.clan-primary.items.0.lore",
       "data": 3
     },
-    "c": {
-      "bind": "color",
-      "material": "INK_SACK",
+    "t": {
+      "bind": "leaderboard",
+      "material": "NETHER_STAR",
       "name": "plugins.clans.views.clan-primary.items.1.name",
-      "lore": "plugins.clans.views.clan-primary.items.1.lore",
-      "data": 14
+      "lore": "plugins.clans.views.clan-primary.items.1.lore"
+    },
+    "r": {
+      "bind": "reports",
+      "material": "BOOK_AND_QUILL",
+      "name": "plugins.clans.views.clan-primary.items.2.name",
+      "lore": "plugins.clans.views.clan-primary.items.2.lore"
     },
     "i": {
       "bind": "invites",

@@ -3,7 +3,7 @@
   "title": "plugins.clans.views.clan-member-manage.title",
   "lang": "plugins.clans.views.clan-member-manage",
   "structure": [
-    ". . . r . p . . .",
+    ". . . r . k . . .",
     ". . . . . . . . .",
     "b . . . . . . . ."
   ],
@@ -17,9 +17,9 @@
       "name": "plugins.clans.views.clan-member-manage.items.0.name",
       "lore": "plugins.clans.views.clan-member-manage.items.0.lore"
     },
-    "p": {
-      "bind": "permissions",
-      "material": "GOLD_PICKAXE",
+    "k": {
+      "bind": "kick",
+      "material": "BARRIER",
       "name": "plugins.clans.views.clan-member-manage.items.1.name",
       "lore": "plugins.clans.views.clan-member-manage.items.1.lore"
     }

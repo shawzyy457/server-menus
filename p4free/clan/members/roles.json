@@ -1,11 +1,10 @@
 {
-  "size": 4,
+  "size": 3,
   "title": "plugins.clans.views.clan-member-role-manage.title",
   "lang": "plugins.clans.views.clan-member-role-manage",
   "structure": [
     ". . . . . . . . .",
-    ". o . o . o . o .",
-    ". . . . . . . . .",
+    ". . . o . o . . .",
     "b . . . . . . . ."
   ],
   "ingredients": {

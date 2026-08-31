@@ -1,0 +1,21 @@
+{
+  "size": 6,
+  "title": "plugins.clans.views.clan-leaderboard.title",
+  "lang": "plugins.clans.views.clan-leaderboard",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". . . . . . . . .",
+    "< . . . f . . . >"
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "f": {
+      "bind": "filter"
+    }
+  }
+}

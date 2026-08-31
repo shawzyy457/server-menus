@@ -1,0 +1,21 @@
+{
+  "size": 6,
+  "title": "plugins.clans.views.clan-reports.title",
+  "lang": "plugins.clans.views.clan-reports",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". . . . . . . . .",
+    "< . . . f . . . >"
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "f": {
+      "bind": "filter"
+    }
+  }
+}
