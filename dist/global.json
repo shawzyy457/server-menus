@@ -381,6 +381,42 @@
       ">": "page-next"
     }
   },
+  "core/spigot/views/user-skins": {
+    "size": 6,
+    "title": "plugins.core.views.user-skins.title",
+    "lang": "plugins.core.views.user-skins",
+    "structure": [
+      ". . . . . . . . .",
+      ". o o o o o o o .",
+      "< o o o e o o o >",
+      ". o o o o o o o .",
+      ". . . . . . . . .",
+      ". . a . b . r . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "<": "page-previous",
+      ">": "page-next",
+      "e": {
+        "bind": "empty"
+      },
+      "a": {
+        "bind": "add",
+        "material": "BOOK_AND_QUILL",
+        "name": "plugins.core.views.user-skins.items.1.name",
+        "lore": "plugins.core.views.user-skins.items.1.lore"
+      },
+      "b": {
+        "bind": "back"
+      },
+      "r": {
+        "bind": "reset",
+        "material": "BARRIER",
+        "name": "plugins.core.views.user-skins.items.2.name",
+        "lore": "plugins.core.views.user-skins.items.2.lore"
+      }
+    }
+  },
   "core/spigot/views/worker-actions": {
     "size": 5,
     "title": "plugins.core.views.worker-actions.title",
@@ -397,6 +433,26 @@
       "x": "content",
       "<": "page-previous",
       ">": "page-next"
+    }
+  },
+  "currencies/views/currency-ranking": {
+    "size": 5,
+    "title": "plugins.currencies.views.currency-ranking.title",
+    "lang": "plugins.currencies.views.currency-ranking",
+    "structure": [
+      ". . . . . . . . .",
+      ". o o o o o o o .",
+      ". . < o o o > . .",
+      ". . . . . . . . .",
+      ". . . . s . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "<": "page-previous",
+      ">": "page-next",
+      "s": {
+        "bind": "self"
+      }
     }
   },
   "lobby/views/cosmetics-category": {

@@ -1,0 +1,36 @@
+{
+  "size": 6,
+  "title": "plugins.core.views.user-skins.title",
+  "lang": "plugins.core.views.user-skins",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    "< o o o e o o o >",
+    ". o o o o o o o .",
+    ". . . . . . . . .",
+    ". . a . b . r . ."
+  ],
+  "ingredients": {
+    "o": "content",
+    "<": "page-previous",
+    ">": "page-next",
+    "e": {
+      "bind": "empty"
+    },
+    "a": {
+      "bind": "add",
+      "material": "BOOK_AND_QUILL",
+      "name": "plugins.core.views.user-skins.items.1.name",
+      "lore": "plugins.core.views.user-skins.items.1.lore"
+    },
+    "b": {
+      "bind": "back"
+    },
+    "r": {
+      "bind": "reset",
+      "material": "BARRIER",
+      "name": "plugins.core.views.user-skins.items.2.name",
+      "lore": "plugins.core.views.user-skins.items.2.lore"
+    }
+  }
+}
