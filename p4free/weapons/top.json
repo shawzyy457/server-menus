@@ -7,7 +7,7 @@
     ". o o o o o o o .",
     ". o o o o o o o .",
     ". o o o o o o o .",
-    "b . . . < . > . ."
+    "b . . . < f > . ."
   ],
   "ingredients": {
     "o": "content",
@@ -15,6 +15,9 @@
     ">": "page-next",
     "b": {
       "bind": "back"
+    },
+    "f": {
+      "bind": "filter"
     }
   }
 }
