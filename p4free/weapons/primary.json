@@ -5,8 +5,8 @@
   "structure": [
     ". . . . . . . . .",
     ". w . o o o o o .",
-    ". . . o o o o o .",
-    ". r . . . . . . .",
+    ". p . o o o o o .",
+    ". r . . . . . t .",
     ". . . . . . . . ."
   ],
   "ingredients": {
@@ -19,6 +19,18 @@
       "material": "ANVIL",
       "name": "plugins.weapons.views.weapon.items.3.name",
       "lore": "plugins.weapons.views.weapon.items.3.lore"
+    },
+    "p": {
+      "bind": "prestige",
+      "material": "FIREWORK",
+      "name": "plugins.weapons.views.weapon.items.4.name",
+      "lore": "plugins.weapons.views.weapon.items.4.lore"
+    },
+    "t": {
+      "bind": "top",
+      "material": "PAPER",
+      "name": "plugins.weapons.views.weapon.items.5.name",
+      "lore": "plugins.weapons.views.weapon.items.5.lore"
     }
   }
 }
