@@ -574,5 +574,52 @@
         "bind": "p4free"
       }
     }
+  },
+  "tops/hub": {
+    "size": 6,
+    "title": "plugins.tops.views.hub.title",
+    "lang": "plugins.tops.views.hub",
+    "structure": [
+      ". . . . . . . . .",
+      ". o o o o o o o .",
+      ". o o o o o o o .",
+      ". o o o o o o o .",
+      ". o o o o o o o .",
+      ". . . . e . . . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "e": {
+        "bind": "empty"
+      }
+    }
+  },
+  "tops/top": {
+    "size": 6,
+    "title": "plugins.tops.views.top.title",
+    "lang": "plugins.tops.views.top",
+    "structure": [
+      ". . . . . . . . .",
+      ". o o o o o o o .",
+      ". o o o o o o o .",
+      ". o o o o o o o .",
+      ". o o o o o o o .",
+      "b . f . e . s . ."
+    ],
+    "ingredients": {
+      "o": "content",
+      "e": {
+        "bind": "empty"
+      },
+      "b": {
+        "bind": "back"
+      },
+      "f": {
+        "bind": "filter"
+      },
+      "s": {
+        "bind": "self"
+      }
+    }
   }
 }

@@ -1,0 +1,17 @@
+{
+  "size": 6,
+  "title": "plugins.tops.views.hub.title",
+  "lang": "plugins.tops.views.hub",
+  "structure": [
+    ". . . . . . . . .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". o o o o o o o .",
+    ". . . . e . . . ."
+  ],
+  "ingredients": {
+    "o": "content",
+    "e": { "bind": "empty" }
+  }
+}
