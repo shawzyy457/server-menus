@@ -19,30 +19,6 @@
       }
     }
   },
-  "clan/leaderboard": {
-    "size": 6,
-    "title": "plugins.clans.views.clan-leaderboard.title",
-    "lang": "plugins.clans.views.clan-leaderboard",
-    "structure": [
-      ". . . . . . . . .",
-      ". o o o o o o o .",
-      ". o o o o o o o .",
-      ". o o o o o o o .",
-      ". . . . . . . . .",
-      "b . . < f > . . ."
-    ],
-    "ingredients": {
-      "o": "content",
-      "<": "page-previous",
-      ">": "page-next",
-      "f": {
-        "bind": "filter"
-      },
-      "b": {
-        "bind": "back"
-      }
-    }
-  },
   "clan/member/invites": {
     "size": 5,
     "title": "plugins.clans.views.member-invites.title",
@@ -331,28 +307,6 @@
       }
     }
   },
-  "events/gladiator/leaderboard": {
-    "size": 6,
-    "title": "plugins.events.views.gladiator.leaderboard.title",
-    "lang": "plugins.events.views.gladiator.leaderboard",
-    "structure": [
-      ". . . . . . . . .",
-      ". o o o o o o o .",
-      ". o o o o o o o .",
-      ". o o o o o o o .",
-      ". o o o o o o o .",
-      "< . . . b . . . >"
-    ],
-    "ingredients": {
-      "o": "content",
-      "<": "page-previous",
-      ">": "page-next",
-      "b": {
-        "bind": "back",
-        "material": "ARROW"
-      }
-    }
-  },
   "events/gladiator/primary": {
     "size": 3,
     "title": "plugins.events.views.gladiator.primary.title",
@@ -398,42 +352,6 @@
             "lore": "plugins.events.views.gladiator.primary.items.event.running.lore"
           }
         }
-      }
-    }
-  },
-  "events/gladiator/ranking": {
-    "size": 3,
-    "title": "plugins.events.views.gladiator.ranking.title",
-    "lang": "plugins.events.views.gladiator.ranking",
-    "structure": [
-      ". . . . . . . . .",
-      ". c p m r v . . .",
-      ". . . . b . . . ."
-    ],
-    "ingredients": {
-      "c": {
-        "bind": "clan-wins",
-        "material": "DRAGON_EGG"
-      },
-      "p": {
-        "bind": "player-kills",
-        "material": "DIAMOND_SWORD"
-      },
-      "r": {
-        "bind": "rush-wins",
-        "material": "GOLD_AXE"
-      },
-      "v": {
-        "bind": "rush-reversals",
-        "material": "NETHER_STAR"
-      },
-      "m": {
-        "bind": "myths",
-        "material": "NETHER_STAR"
-      },
-      "b": {
-        "bind": "back",
-        "material": "ARROW"
       }
     }
   },
@@ -646,29 +564,6 @@
         "material": "PAPER",
         "name": "plugins.weapons.views.weapon.items.5.name",
         "lore": "plugins.weapons.views.weapon.items.5.lore"
-      }
-    }
-  },
-  "weapons/top": {
-    "size": 5,
-    "title": "plugins.weapons.views.weapon-top.title",
-    "lang": "plugins.weapons.views.weapon-top",
-    "structure": [
-      ". . . . . . . . .",
-      ". o o o o o o o .",
-      ". o o o o o o o .",
-      ". o o o o o o o .",
-      "b . . . < f > . ."
-    ],
-    "ingredients": {
-      "o": "content",
-      "<": "page-previous",
-      ">": "page-next",
-      "b": {
-        "bind": "back"
-      },
-      "f": {
-        "bind": "filter"
       }
     }
   }

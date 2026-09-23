@@ -435,26 +435,6 @@
       ">": "page-next"
     }
   },
-  "currencies/views/currency-ranking": {
-    "size": 5,
-    "title": "plugins.currencies.views.currency-ranking.title",
-    "lang": "plugins.currencies.views.currency-ranking",
-    "structure": [
-      ". . . . . . . . .",
-      ". o o o o o o o .",
-      ". . < o o o > . .",
-      ". . . . . . . . .",
-      ". . . . s . . . ."
-    ],
-    "ingredients": {
-      "o": "content",
-      "<": "page-previous",
-      ">": "page-next",
-      "s": {
-        "bind": "self"
-      }
-    }
-  },
   "lobby/views/cosmetics-category": {
     "size": 5,
     "title": "plugins.lobby.views.cosmetics-category.title",
