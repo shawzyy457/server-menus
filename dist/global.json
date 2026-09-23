@@ -581,15 +581,15 @@
     "structure": [
       ". . . . . . . . .",
       ". o o o o o o o .",
+      ". o o o c o o o .",
       ". o o o o o o o .",
       ". o o o o o o o .",
-      ". o o o o o o o .",
-      "b . f . e . s . ."
+      "b . f . . . s . ."
     ],
     "ingredients": {
       "o": "content",
-      "e": {
-        "bind": "empty"
+      "c": {
+        "bind": "center"
       },
       "b": {
         "bind": "back"
