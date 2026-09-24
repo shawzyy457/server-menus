@@ -14,8 +14,9 @@ Texto visível não vai aqui: o título e os itens apontam para chaves do `exe-m
 
 ## Como mudar um menu
 
-Edite o `.json` e faça push no `main`. Não há build nem `dist/`: em até 3 minutos a plataforma baixa
-as fontes, monta os menus e avisa os servidores pelo Echo, sem reiniciar nada.
+Edite o `.json` e faça push no `main`. Não há build nem `dist/`: em até 1 minuto a plataforma baixa
+as fontes, monta os menus e avisa os servidores pelo Echo, sem reiniciar nada, e os menus abertos se
+redesenham. Para ser na hora, `/admin reload --content` em jogo.
 
 Os arquivos são JSON estrito, sem comentário nem vírgula sobrando. Se um deles não for um objeto JSON
 válido, a plataforma recusa a versão inteira, o jogo continua com a anterior e o motivo aparece no
